@@ -1,0 +1,127 @@
+.teacher-dashboard,
+.page-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem;
+}
+
+h1, h2, h3 {
+    color: #f9fafb;
+}
+
+.assignment-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(280px,1fr));
+    gap: 1.5rem;
+}
+
+.assignment-card,
+.form-panel,
+.preview-panel {
+    background: #0f172a;
+    border-radius: 14px;
+    padding: 1.5rem;
+    color: #e5e7eb;
+}
+
+input, textarea, select {
+    background: #020617;
+    color: #f8fafc;
+    border: 1px solid #334155;
+    padding: .7rem;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.preview-box {
+    background: #020617;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+}
+
+.choice-row {
+    display: flex;
+    gap: .5rem;
+    margin-bottom: .5rem;
+}
+.assignment-page {
+    max-width: 1400px;
+    margin: auto;
+    padding: 2rem;
+}
+
+.page-header {
+    margin-bottom: 2rem;
+}
+
+.subtitle {
+    color: #94a3b8;
+}
+
+.assignment-form {
+    width: 100%;
+}
+
+.form-layout {
+    display: grid;
+    grid-template-columns: 2.5fr 1fr;
+    gap: 2rem;
+}
+
+.form-main,
+.form-side {
+    background: #0f172a;
+    border-radius: 16px;
+    padding: 2rem;
+}
+
+.field {
+    margin-bottom: 1.5rem;
+}
+
+label {
+    display: block;
+    margin-bottom: .4rem;
+    color: #e5e7eb;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    background: #020617;
+    color: #f8fafc;
+    border: 1px solid #334155;
+    border-radius: 10px;
+    padding: .75rem;
+}
+
+.dynamic-box {
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px dashed #334155;
+}
+
+.choice-row {
+    display: flex;
+    gap: .5rem;
+    margin-bottom: .5rem;
+}
+
+.preview-box {
+    background: #020617;
+    border-radius: 12px;
+    padding: 1rem;
+    color: #e5e7eb;
+}
+
+.btn-primary.big {
+    width: 100%;
+    margin-top: 2rem;
+}
